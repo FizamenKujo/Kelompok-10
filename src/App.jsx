@@ -8,6 +8,7 @@ import InfoStok from './pages/InfoStok';
 import BarangMasukKeluar from './pages/BarangMasukKeluar';
 import LaporanTransaksi from './pages/LaporanTransaksi';
 import Login from './pages/Login';
+import Pembelian from './pages/Pembelian';
 
 // Mock Pages
 const PlaceholderPage = ({ title }) => (
@@ -42,7 +43,7 @@ function App() {
             <Route path="/laporan" element={<LaporanTransaksi />} />
             
             <Route path="/sales" element={<PlaceholderPage title="Modul Penjualan" />} />
-            <Route path="/purchases" element={<PlaceholderPage title="Modul Pembelian" />} />
+            <Route path="/purchases" element={<Pembelian />} />
             <Route path="/integrations" element={<PlaceholderPage title="Modul Integrasi API" />} />
             <Route path="/reports" element={<LaporanTransaksi />} />
             <Route path="/documents" element={<PlaceholderPage title="Arsip Dokumen" />} />

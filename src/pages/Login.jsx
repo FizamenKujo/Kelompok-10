@@ -53,7 +53,7 @@ const Login = ({ onLogin }) => {
         </form>
 
         <div style={{ textAlign: 'center', marginTop: '20px', fontSize: '12px', color: 'var(--text-muted)' }}>
-          <span>Hint: admin@kiosiqbal.com / admin123</span>
+          <span>Hint: admin@email.com / admin123</span>
         </div>
       </div>
     </div>
