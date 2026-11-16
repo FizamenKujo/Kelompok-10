@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Verifikasi username & password admin
-    if (email === 'admin@kiosiqbal.com' && password === 'admin123') {
+    if (email === 'admin@email.com' && password === 'admin123') {
       setError('');
       onLogin();
     } else {
@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
       <div className="login-box">
         <div className="login-header">
           <Warehouse size={48} color="var(--primary)" weight="fill" />
-          <h2>Kios Iqbal</h2>
+          <h2>Manager Gudang</h2>
           <p>Masuk ke sistem manajemen gudang</p>
         </div>
 
@@ -37,7 +37,7 @@ const Login = ({ onLogin }) => {
             <label>Alamat Email</label>
             <div className="input-with-icon">
               <EnvelopeSimple size={18} className="icon" />
-              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required placeholder="admin@kiosiqbal.com" className="form-input" />
+              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required placeholder="Masukkan Email" className="form-input" />
             </div>
           </div>
           <div className="form-group">
