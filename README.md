@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # Kelompok-10
-# 📦 Sistem Informasi Warehouse UMKM Kios Iqbal
+# 📦 Sistem Informasi Warehouse UMKM
 
 Sistem Informasi Warehouse UMKM merupakan aplikasi berbasis website yang dirancang untuk membantu UMKM dalam mengelola **data barang, stok, transaksi penjualan, dan laporan penjualan** secara lebih terstruktur.
 
-Sistem ini juga menyediakan **dashboard admin** yang dilengkapi dengan statistik dan grafik riwayat penjualan sehingga pemilik UMKM dapat lebih mudah memantau perkembangan dan menganalisis kondisi bisnis.
+Sistem ini juga menyediakan **Dashboard Admin** yang dilengkapi dengan statistik dan grafik riwayat penjualan sehingga pemilik UMKM dapat lebih mudah memantau perkembangan dan menganalisis kondisi bisnis.
 
 ---
 
@@ -82,7 +81,7 @@ Database sistem menggunakan **MySQL** untuk menyimpan data yang berkaitan dengan
 
 Beberapa data utama yang digunakan antara lain:
 
-- **Produk** — menyimpan informasi barang dan stok.
+- **Produk** — Menyimpan informasi barang dan stok.
 - **Transaksi** — menyimpan riwayat transaksi penjualan.
 - **Admin** — menyimpan data pengguna yang memiliki akses untuk mengelola sistem.
 
@@ -132,13 +131,13 @@ cd warehouse-umkm
 
 ### 3. Jalankan Web Server
 
-Jika menggunakan **XAMPP**, letakkan folder project di:
+Jika menggunakan **XAMPP**, Letakkan folder project di:
 
 ```text
 C:/xampp/htdocs/
 ```
 
-Kemudian jalankan:
+Kemudian Jalankan:
 
 - Apache
 - MySQL
@@ -182,7 +181,7 @@ http://localhost/warehouse-umkm/
 
 ## 📊 Dashboard
 
-Dashboard admin digunakan untuk menampilkan informasi penting seperti:
+Dashboard Admin digunakan untuk menampilkan informasi penting seperti:
 
 - Jumlah produk.
 - Jumlah stok.
@@ -240,7 +239,7 @@ Beberapa fitur yang diuji meliputi:
 - Pencatatan transaksi.
 - Perhitungan dan rekap penjualan.
 - Tampilan grafik statistik.
-- Koneksi database.
+- Koneksi Database.
 
 ---
 
@@ -266,21 +265,3 @@ Project masih dalam tahap pengembangan dan dapat dikembangkan lebih lanjut sesua
 Project ini dibuat untuk keperluan **akademik dan pembelajaran**.
 
 © 2026 Sistem Informasi Warehouse UMKM
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
->>>>>>> f67a90e (App added)
